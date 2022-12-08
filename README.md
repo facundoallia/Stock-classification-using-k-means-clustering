@@ -14,7 +14,7 @@ We work with all the S&P 500 stocks. The S&P 500 consists of 500 companies repre
 
 K-means clustering is an unsupervised learning algorithm used to group data points into clusters. In the context of creating 4 clusters of stocks using K-means algorithm, the algorithm will iteratively assign data points to clusters based on their similarity of characteristics, or "features", such as returns and volatility. The algorithm initially assigns the data points randomly to the clusters, and then calculates the centroid of each cluster, which is the mean of all the data points within the cluster. The algorithm then compares the data points to the centroid and reassigns them to clusters accordingly. This process is repeated until the centroid of each cluster remains relatively stable, at which point the algorithm stops and each cluster is assigned a label. The end result is a set of 4 clusters, each containing stocks that have similar returns and volatilities.
 
-![return and volatility k-means clustering]([http://url/to/img.png](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/ret_vol.png?raw=true))
+![return and volatility k-means clustering]((https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/ret_vol.png?raw=true))
 
 The graph shows 4 clusters that were generated using a K-means algorithm with 2 variables: average annualized return and average annualized volatility. These variables are used to measure the risk and return of a stock. The 4 clusters represent 4 groups of actions with different levels of risk and return in the period under study.
 
@@ -26,4 +26,4 @@ Investors could use the 4 clusters to select a mix of stocks with different leve
 
 It is possible to apply a clustering similar to the one performed previously, exchanging the variables Annualized Average Return and Annualized Average Volatility for PER (Price-Earnings Ratio) and Dividend Rate. In this way we could differentiate between “value” companies and “growth” companies.
 
-![return and volatility k-means clustering]([[http://url/to/img.png](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/ret_vol.png?raw=true](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/per_div.png?raw=true)))
+![return and volatility k-means clustering]([(https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/ret_vol.png?raw=true](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/per_div.png?raw=true)))
