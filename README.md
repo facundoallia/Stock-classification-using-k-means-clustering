@@ -26,4 +26,17 @@ Investors could use the 4 clusters to select a mix of stocks with different leve
 
 It is possible to apply a clustering similar to the one performed previously, exchanging the variables Annualized Average Return and Annualized Average Volatility for PER (Price-Earnings Ratio) and Dividend Rate. In this way we could differentiate between “value” companies and “growth” companies.
 
-![return and volatility k-means clustering](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/per_div.png?raw=true)
+![PER and dividend rate k-means clustering](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/per_div.png?raw=true)
+
+# 3 dimensional clustering with K-means++
+
+We can extend the analysis of S&P500 stocks applying k-means++ clustering. This algorithm ensures a smarter initialization of the centroids and improves the quality of the clustering. Apart from initialization, the rest of the algorithm is the same as the standard K-means algorithm. That is K-means++ is the standard K-means algorithm coupled with a smarter initialization of the centroids.
+
+It´s possible to take in count 3 variables for the clusterization:
+
++ Average annualized return 
++ Average annualized volatility
++ Price to Book
+
+![return, volatility and price to boo k-means clustering](https://github.com/facundoallia/Stock-classification-using-k-means-clustering/blob/main/assets/ret_vol_pb.png)
+
