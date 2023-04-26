@@ -1,6 +1,6 @@
 # Stock classification using k-means clustering
 
-This work presents an approach to use the K-means algorithm for stock classification, with the aim of helping investors to diversify their investment portfolios. It´s divided in 3 parts:
+This work presents an approach to using the K-means algorithm for stock classification, with the aim of helping investors to diversify their investment portfolios. It´s divided into 3 parts:
 
 1. Clustering of stocks according to their average annualized return and average annualized volatility.
 
