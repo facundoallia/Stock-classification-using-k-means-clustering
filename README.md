@@ -1,8 +1,8 @@
 # Stock classification using k-means clustering
 
-*To see the english version with code go to [Medium](https://medium.com/@facujallia/stock-classification-using-k-means-clustering-8441f75363de)
+*To see the english version with code go to [Medium](https://medium.com/@facujallia/stock-classification-using-k-means-clustering-8441f75363de)*
 
-To see the spanish paper go to [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403662)*
+*To see the spanish paper go to [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4403662)*
 
 
 
